@@ -1,21 +1,85 @@
-<<<<<<< HEAD
-# React + Vite
+# TaskFlow – Smart Digital Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and user-friendly task management application designed to help users organize daily activities, manage priorities, track progress, and stay productive.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:** https://task-flow-tau-topaz.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- **Dashboard:** View task statistics and productivity overview.
+- **Task Management:** Create, edit, and delete tasks.
+- **Task Tracking:** Manage Pending, In Progress, and Completed tasks.
+- **Priority Management:** Organize tasks based on priority.
+- **Due Date Management:** Set deadlines and track overdue tasks.
+- **Search and Filters:** Quickly find and organize tasks.
+- **Custom Reminders:** Set reminders for individual tasks.
+- **Voice Reminders:** Android native voice reminder integration.
+- **Productivity Overview:** Track task completion and progress.
+- **Responsive UI:** Clean interface for different screen sizes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+- React.js
+- Vite
+- JavaScript
+- CSS
+- Capacitor
+- Java (Android native integration)
+- LocalStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-=======
-# TaskFlow
-TaskFlow – A smart digital task manager with custom alarms, voice reminders, task tracking, and productivity management. Built with React, Vite, Capacitor, and Java.
->>>>>>> 98d349ae494919e6c5a13241d7d517468b5d6889
+## 💻 Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Ashirbadasahu/TaskFlow.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd TaskFlow
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## 🌐 Build for Production
+
+```bash
+npm run build
+```
+
+The production build will be generated inside the `dist` folder.
+
+## 📱 Android Application
+
+TaskFlow also uses Capacitor to integrate the web application with Android native functionality.
+
+Android project setup:
+
+```bash
+npx cap sync android
+npx cap open android
+```
+
+## 📌 Project Information
+
+- **Project Name:** TaskFlow
+- **Category:** Productivity / Task Management
+- **Developer:** Ashirbad Sahu
+- **Deployment:** Vercel
+- **Repository:** https://github.com/Ashirbadasahu/TaskFlow
+
+## 📄 License
+
+This project is licensed under the MIT License, if the repository's LICENSE file contains the MIT License.
